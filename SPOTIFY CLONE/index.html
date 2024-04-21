@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li class="img"><img  src="logo.png" alt=""></li>
+                <li>Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mid">
+        <div><h1>Best of my Songs</h1></div>
+        <div>
+            <div class="list t1 ">
+                <img src="covers/1.jpeg" alt="">
+                <span>Rang Lageya 3:47<i id='1' class="far temp songplay fa-play-circle"></i></span>
+            </div>
+            <div class="list t1 ">
+                <img src="covers/2.jpeg" alt="">
+                <span>Khwab Dekhe Sexy Lady 4:39<i id='2' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1 ">
+                <img src="covers/3.jpeg" alt="">
+                <span>Do Dhaari Talwar 5:00<i id='3' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1 ">
+                <img src="covers/4.jpeg" alt="">
+                <span>Naiyo Lagda 5:20<i id='4' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1 ">
+                <img src="covers/5.jpeg" alt="">
+                <span>Apna Bana Le 4:21<i id='5'class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1 ">
+                <img src="covers/6.jpeg" alt="">
+                <span>Bulleya 5:57<i id='6' class="far temp songplay fa-play-circle"></i></span>
+            </div>
+            <div class="list t1">
+                <img src="covers/7.jpeg" alt="">
+                <span>Malang Sajna 2:41<i id='7' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1">
+                <img src="covers/8.jpeg" alt="">
+                <span>Mujhe Pyar Hua Tha 3:37<i id='8' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1">
+                <img src="covers/9.jpeg" alt="">
+                <span>Khaab 3:21<i id='9' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+            <div class="list t1">
+                <img src="covers/10.jpeg" alt="">
+                <span>Rihaayi 2:48<i id='10' class="far songplay temp fa-play-circle"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="duration1" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fas fa-2x fa-step-backward"></i>
+            <i id="masterplay" class="far fa-2x fa-play-circle"></i>
+            <i id="next" class="fas fa-2x fa-step-forward"></i>
+        </div>    
+        <img src="playing.gif" id="gif"><span id="mastersongname">Rang Lageya</span>
+    </div>
+<script src="app.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</body>
+</html>
